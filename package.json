@@ -16,6 +16,7 @@
     ],
     "scripts": {
         "version": "npm run build",
+        "preinstall": "npm-force-resolutions",
         "postinstall": "npm run bootstrap",
         "build": "npm run bootstrap && lerna run compile && webpack && cp -r ./dist ./packages/web3",
         "publish": "lerna publish",
@@ -133,5 +134,8 @@
         "wait-port": "^0.2.9",
         "webpack": "^4.44.2",
         "webpack-cli": "^4.9.1"
+    },
+    "resolutions": {
+        "xhr2-cookies": "https://registry.npmjs.org/xhr2-cookies-web3fix/-/xhr2-cookies-web3fix-1.1.0.tgz"
     }
 }

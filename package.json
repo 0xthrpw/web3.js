@@ -1,5 +1,5 @@
 {
-    "name": "web3.js",
+    "name": "@0xthrpw/web3.js",
     "private": true,
     "description": "Ethereum JavaScript API wrapper repository",
     "license": "LGPL-3.0",
@@ -136,6 +136,6 @@
         "webpack-cli": "^4.9.1"
     },
     "resolutions": {
-        "xhr2-cookies": "https://registry.npmjs.org/xhr2-cookies-web3fix/-/xhr2-cookies-web3fix-1.1.0.tgz"
+      "xhr2-cookies": "https://registry.npmjs.org/xhr2-cookies-web3fix/-/xhr2-cookies-web3fix-1.1.0.tgz"
     }
 }
